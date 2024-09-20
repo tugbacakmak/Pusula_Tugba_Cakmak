@@ -23,29 +23,29 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 ## Key Steps in the Analysis
 ### Data Loading and Cleaning:
 
-Handled missing values in numerical columns using mean imputation.
-Categorical columns were filled with placeholders like 'Bilinmeyen' for unknown values.
+- Handled missing values in numerical columns using mean imputation.
+- Categorical columns were filled with placeholders like 'Bilinmeyen' for unknown values.
 
 ### Feature Engineering:
-Derived age from the birth date.
-Calculated drug usage duration in days.
+- Derived age from the birth date.
+- Calculated drug usage duration in days.
 
 ### Exploratory Data Analysis (EDA):
-Visualized distributions of weight, height, and side effects.
-Analyzed relationships between gender, chronic diseases, and side effects.
-Examined geographic distribution of reported side effects.
+- Visualized distributions of weight, height, and side effects.
+- Analyzed relationships between gender, chronic diseases, and side effects.
+- Examined geographic distribution of reported side effects.
 
 ### Data Preparation:
 
-Encoded categorical variables (e.g., blood type, gender).
-Standardized numerical features like weight, height, and drug duration.
-Split the dataset into training and test sets for further modeling.
+- Encoded categorical variables (e.g., blood type, gender).
+- Standardized numerical features like weight, height, and drug duration.
+- Split the dataset into training and test sets for further modeling.
 
 ### Results and Insights
 
-#### Common Side Effects: Kabızlık (constipation), Yorgunluk (fatigue), and Çarpıntı (palpitations) were frequently reported.
-#### Drug-Specific Findings: Some drugs, like trifluoperazine and fluphenazine, were linked to a higher number of side effects.
-#### Chronic Diseases: Patients with conditions such as hypertension or COPD generally had higher average weights.
+- Common Side Effects: Kabızlık (constipation), Yorgunluk (fatigue), and Çarpıntı (palpitations) were frequently reported.
+- Drug-Specific Findings: Some drugs, like trifluoperazine and fluphenazine, were linked to a higher number of side effects.
+- Chronic Diseases: Patients with conditions such as hypertension or COPD generally had higher average weights.
 
 ### Final Notes
 
