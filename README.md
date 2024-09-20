@@ -41,12 +41,6 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 - Standardized numerical features like weight, height, and drug duration.
 - Split the dataset into training and test sets for further modeling.
 
-### Results and Insights
-
-- Common Side Effects: Kabızlık (constipation), Yorgunluk (fatigue), and Çarpıntı (palpitations) were frequently reported.
-- Drug-Specific Findings: Some drugs, like trifluoperazine and fluphenazine, were linked to a higher number of side effects.
-- Chronic Diseases: Patients with conditions such as hypertension or COPD generally had higher average weights.
-
 ### Final Notes
 
 The project is designed to provide insights into the relationships between drug usage and side effects, with a focus on making the data ready for predictive modeling in future steps.
